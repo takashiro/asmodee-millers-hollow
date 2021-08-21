@@ -1,6 +1,6 @@
-import EventDriver from '../src/EventDriver';
-import EventListener from '../src/EventListener';
-import GameEvent from '../src/GameEvent';
+import EventDriver from '../../src/driver/EventDriver';
+import EventListener from '../../src/driver/EventListener';
+import GameEvent from '../../src/driver/GameEvent';
 
 class Listener extends EventListener<unknown> {
 	protected a = false;
